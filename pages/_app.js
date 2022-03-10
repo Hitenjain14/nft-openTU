@@ -15,7 +15,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="UTF-8" />
         <title>OpenTu</title>
-        <link rel="icon" href="/openTu-logo.png" />
+        <link
+          rel="icon"
+          href="https://cdn-icons-png.flaticon.com/512/5264/5264949.png"
+        />
       </Head>
       <ThirdwebWeb3Provider
         supportedChainIds={supportedChainIds}
