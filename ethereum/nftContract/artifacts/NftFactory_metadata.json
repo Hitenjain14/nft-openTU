@@ -1,0 +1,188 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_base",
+						"type": "string"
+					},
+					{
+						"internalType": "uint96",
+						"name": "_royaltyFeesInBips",
+						"type": "uint96"
+					},
+					{
+						"internalType": "address",
+						"name": "_royaltyAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "toMint",
+						"type": "uint256"
+					}
+				],
+				"name": "createCollection",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCollection",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "nftCollection",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyNft.sol": "NftFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721.sol": {
+			"keccak256": "0x4a13c3c5719e93b67dc48461cc943fa3641af7c28042758d771e711fa1c11bcc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b25c6a8dabb0bb59dfceeb5814fc8f4696076cce433154fb43cc9696495b793",
+				"dweb:/ipfs/QmaG4pV4ohoY1dgL2K551QTmv8hacFoUftcxjQVyYRBpTD"
+			]
+		},
+		"IERC721.sol": {
+			"keccak256": "0x2816fceb661831754f1afda7f439c970d28acb4a98166aad0aa121206b81dd36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://578ad387e105c56be1270dcfd8034903f200d26b0688a04419db5869f1fe5a24",
+				"dweb:/ipfs/QmY24Tc2QtDE2Lj5gMHYUkeR5XSEWVN9fT2YH6CTdoQPAv"
+			]
+		},
+		"IERC721Receiver.sol": {
+			"keccak256": "0x024dfb8eb54e59248b55d98a32a0b83eac393d86a14b21806d5ca87eb45cf2e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://476c07cd8a42815ae425b5e2c48e8df645171164bb0d2d0a493aac14c859b7db",
+				"dweb:/ipfs/QmcxCZM6sDpMfv3J3jCZ3MHjL7CPJhKtAWTC2vUfMWkY5S"
+			]
+		},
+		"MyNft.sol": {
+			"keccak256": "0x59143940436d15f240684eb3edf99e11c827ef0964ad8becbce102c14314b09d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e324564376ab5becaac730a2041cf79d4ef7b9b481ae2bd05a5981b84790f24d",
+				"dweb:/ipfs/QmPsSZtYNtvBYdg5xNWdhsTFkC7Dy6GhSjmimH4N7QkSA4"
+			]
+		},
+		"utils/Address.sol": {
+			"keccak256": "0x9e35a0b60d134afdb69ae3b5e715b3ef4096a3ff412b058970c4c73b25606a16",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5302f46d88c91b0fa9dca2566c0cf5fa2b1780614d8b2a4d8dda16e86d29a078",
+				"dweb:/ipfs/QmTXfgB8THEDvLibj6Q9xZm7cBSuXqhAv6PfebWUFsm69r"
+			]
+		},
+		"utils/Context.sol": {
+			"keccak256": "0xe57f5983c0a8a386b7c5a3f99a351186fd0518fe77c6902410d8c0aafb1e82d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://be867e499fce0fb0ffd23e9d6739390c1c3a30667da286e6c5c9fe1368bfd2f8",
+				"dweb:/ipfs/QmUEX8ffdJ2vWrZEVtvXEaJGeBgCesCs2REfEJaZy2qFgQ"
+			]
+		},
+		"utils/ERC165.sol": {
+			"keccak256": "0x25bf49f502c6c3030e66f0e91922236da8dad1314a56ba39f7b250f2d9a1341c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://224b742ef3f340a95dbb90adec54f4235aaf11711d937f6768593eca3cb80126",
+				"dweb:/ipfs/QmYEMW1ZBKHNCNdSdFqMzNDjc7GrCqqCkAQ7yCbw21DyY8"
+			]
+		},
+		"utils/IERC165.sol": {
+			"keccak256": "0x12242fa5b393dddb3be3ed9f1f4333610a6677c7c37648dce37b7dd1d195ab95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9a9b781f00d659febcb2c293f77885476b7194d48c7fa152603612001edcf3a",
+				"dweb:/ipfs/QmYqdzRhXoT8MFEPVvQcxLq4RFrcziQg2HrsSt3qtZsofz"
+			]
+		},
+		"utils/IERC721Metadata.sol": {
+			"keccak256": "0x41532e149abd4eb91a6746acf08b7ed1b9c6aa2ec17227ef7c177d3041756e33",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bea80f3408a9df963f99f93949fb3be0753945770ec13a5a32d853e861ab858",
+				"dweb:/ipfs/QmZqy4J1NLTAHqwMvsJiqPXkboPtfxqTRKquMBHgGfxRQx"
+			]
+		},
+		"utils/Strings.sol": {
+			"keccak256": "0x08b9d58592a769711e6bfbea768949913ecfdf3fd0bb5e3156b8f40d528f04f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab828d104615ae0988d21399553752045f9ccbbbe0d7c28560dc4fa12b393b66",
+				"dweb:/ipfs/QmU5Ag1s6g761C6jTarsNWmSGNG1ZSrZgfXWVK7Zrrr5vM"
+			]
+		}
+	},
+	"version": 1
+}

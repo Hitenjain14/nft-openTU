@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_nft",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nftId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startingPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_discountRate",
+						"type": "uint256"
+					}
+				],
+				"name": "createDutchCampaign",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_nft",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nftId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startingBid",
+						"type": "uint256"
+					}
+				],
+				"name": "createEnglishAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "dutchAuctions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "englishAuctions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDutchAuction",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEnglishAuction",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NftAuction.sol": "FactoryAuction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NftAuction.sol": {
+			"keccak256": "0xa295f62972ddf2511443a8f8502b91171893fa010c9cfc0ce756dbadcb28e458",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3496ecbc9b9b8158c864ac340259c1030e6bda80d87d024415bc83650b74bd91",
+				"dweb:/ipfs/QmXcWWtxnnUuLijXYZJo1n8EjLAP8ANBcaDx673hcyzNiz"
+			]
+		}
+	},
+	"version": 1
+}
